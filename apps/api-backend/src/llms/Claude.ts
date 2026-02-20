@@ -4,7 +4,7 @@ import { BaseLlm, LlmResponse } from "./Base";
 import { TextBlock } from "@anthropic-ai/sdk/resources";
 
 const client = new Anthropic({
-    apiKey: process.
+    apiKey: process.env.ANTHROPIC_API_KEY
 });
 
 

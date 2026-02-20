@@ -4,7 +4,7 @@ import { createContext, useContext } from 'react';
 
 const client = treaty<App>('localhost:3000', {
     fetch: {
-        credentials: 'include'
+        
     }
 }) ;
 
